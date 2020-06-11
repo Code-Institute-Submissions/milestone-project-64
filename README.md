@@ -42,17 +42,6 @@ HTML was used for the functionality and content. CSS for the design of the page.
 I have tested that the site responds to different screen sizes.
 The contact form need no testing because it does not have any back end functionally to it.
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
 ### Content
 
 - At this point I have only used filler text (ipsum lorum), except for titles and headings.
