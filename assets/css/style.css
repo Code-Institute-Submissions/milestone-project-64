@@ -73,6 +73,7 @@ header a:hover {
     background: url(../images/showcase.jpg) no-repeat;
     text-align: center;
     color: #fff;
+    border-bottom: #00E8E8 3px solid;
 }
 
 #showcase h1 {
@@ -105,24 +106,83 @@ footer {
     margin-top: 20px;
     color: #fff;
     background-color: #00e8e8;
+    border-top: #35424a 3px solid;
 }
+
+ /*------------------------------- Contact Form */
+
+  #form-section{
+    background: url(../images/backdrop.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 30px;
+    padding: 30 0;
+    clear: both;
+    height: 600px;
+}
+
+#form-container{
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.7);
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+  
+  label {
+    line-height: 100%;
+    margin-bottom: 5px;
+    font-size: 14px;
+    padding:0;
+  }
+  
+
+   .text-input {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+  }
+
+   #message {
+    width: 100%; 
+    height: 120px; 
+    border: 1px solid rgba(254, 254, 254, 0.3); 
+ }
+  
+  .send-button {
+      border-radius: 3px;
+      color:#35424a;
+      margin-top: 10px;
+      padding: 10px 22px;
+      text-align: center;
+      font-size: 15px;
+
+  }
 
 /*-----------------------------------------Media Queries*/
 
 @media(max-width: 768px){
- header @name,
- header nav,
- header nav li{
-     float: none;
-     text-align: center;
-     width: 100%;
- }
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  article#main-col,{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
 
- header{
-     padding-bottom: 20px;
- }
+  header{
+    padding-bottom:20px;
+  }
 
- #showcase h1{
-     margin-top: 40px;
- }
-}
+  #showcase h1{
+    margin-top:40px;
+  }
+
+
